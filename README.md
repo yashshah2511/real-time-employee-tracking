@@ -222,7 +222,7 @@ postcss@8.x              # CSS processing
 **Terminal 1 - Backend:**
 ```bash
 cd backend/app
-python main.py
+uvicorn main:app --reload
 ```
 
 **Terminal 2 - Frontend:**
